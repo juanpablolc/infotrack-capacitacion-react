@@ -6,10 +6,9 @@ interface TaskProps {
 
 // COMPONENTE DE CLASE / CLASS-BASED COMPONENT
 
-/*
-class Task extends Component<TaskProps> {
+/* class Task extends Component<TaskProps> {
     state = {
-        completed: false
+        completed: false,
         // color: '#FFF'
     };
 
@@ -27,8 +26,7 @@ class Task extends Component<TaskProps> {
             </div>
         );
     }
-}
-*/
+} */
 
 // COMPONENTE FUNCIONAL / STATELESS COMPONENT
 

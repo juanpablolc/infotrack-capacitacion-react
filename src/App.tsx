@@ -1,16 +1,9 @@
 import React from 'react';
-import AddTaskForm from './components/AddTaskForm/AddTaskForm';
-import Task from './components/Task/Task';
+
+import TaskContainer from './components/TaskContainer/TaskContainer';
 
 const App = () => {
-    return (
-        <div>
-            <AddTaskForm />
-            <Task message="1. Reportar horas" />
-            <Task message="2. Lavar los platos" />
-            <Task message="3. :)" />
-        </div>
-    );
+    return <TaskContainer />;
 };
 
 export default App;
